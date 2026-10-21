@@ -249,3 +249,9 @@ body[data-type=commercial] .bid td:first-child{padding-top:7pt}
 body[data-type=commercial] .acc{break-inside:avoid;break-before:page;margin-top:0}body[data-type=commercial] .pad{height:80px}body[data-type=commercial] .sigs{margin-top:20pt}body[data-type=commercial] .ft{break-before:avoid}
 }
 .signed .sigs{clear:both}
+.pay{margin-top:24px;padding-top:20px;border-top:1px solid var(--hair);break-inside:avoid}
+.pay .pt{font:500 16px/1.4 var(--body);color:var(--ink);margin-top:8px}.pay .pd{font-size:13px;color:var(--muted);margin-top:6px;max-width:560px}
+.split{display:grid;grid-template-columns:1fr 1fr;margin-top:16px;border:1px solid var(--hair)}.split>div{padding:16px 20px}.split>div+div{border-left:1px solid var(--hair)}
+.split b{display:block;font-size:24px;font-weight:500;color:var(--ink);margin:8px 0 4px;letter-spacing:-.02em}.split .w{display:block;font-size:12.5px;color:var(--muted)}
+@media (max-width:600px){.split{grid-template-columns:1fr}.split>div+div{border-left:0;border-top:1px solid var(--hair)}}
+@media print{.pay{margin-top:10pt;padding-top:8pt}.split{margin-top:8pt}.split>div{padding:8pt 12pt}.split b{font-size:15pt}}
